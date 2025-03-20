@@ -129,7 +129,7 @@ const Header = () => {
         <div className="bg-image absolute inset-0 opacity-100 z-0">
           <img
             loading="lazy"
-            srcSet="/images/photo-1.webp"
+            src="/images/photo-1.webp"
             alt="Background"
             className="w-full h-full object-cover md:max-w-[800px] mx-auto"
           />

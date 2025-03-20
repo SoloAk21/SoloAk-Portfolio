@@ -22,7 +22,23 @@ section.home-top a.toggle {
 
 section.home-top .bg-image {
   margin-top: 70px;
-  background: url(./images/photo-1.webp) no-repeat;
+  background: url(./images/photo-1.jpeg) no-repeat;
+  background-size: auto 100%;
+  background-position: top 0 center;
+  position: absolute;
+
+  display: block;
+  width: 100%;
+  max-height: 460px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  visibility: hidden;
+}
+section.home-top .bg-image {
+  margin-top: 70px;
+  background: url(/public/images/photo-1.webp) no-repeat;
   background-size: auto 100%;
   background-position: top 0 center;
   position: absolute;

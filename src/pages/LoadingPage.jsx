@@ -6,15 +6,15 @@ const loadingContainer = {
   justifyContent: "center",
   alignItems: "center",
   height: "100vh",
-  backgroundColor: "#f9fafb", // Updated to match your page
+  backgroundColor: "#f9fafb",
 };
 
 const loadingCircle = {
   display: "block",
-  width: "2.5rem",
-  height: "2.5rem",
+  width: "1.5rem",
+  height: "1.5rem",
   margin: "0 0.5rem",
-  backgroundColor: "#4B5563", // Tailwind's gray-600 (neutral tone)
+  backgroundColor: "black",
   borderRadius: "50%",
 };
 
